@@ -1,9 +1,10 @@
 import './App.css';
+import RepositoriesList from './components/RepositoriesList/RepositoriesList';
 
 function App() {
   return (
     <div className="App">
-      Hello
+      <RepositoriesList />
     </div>
   );
 }
